@@ -1,0 +1,26 @@
+
+body {
+  font: 10px sans-serif;
+}
+
+.bar rect {
+  shape-rendering: crispEdges;
+}
+
+.bar.pass rect {
+  fill: rgba(0, 255, 0, 0.5);
+}
+
+.bar.run rect {
+  fill: rgba(255, 0, 0, 0.5);
+}
+
+.bar text {
+  fill: #ff;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
